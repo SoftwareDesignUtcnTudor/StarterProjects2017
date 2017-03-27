@@ -1,0 +1,46 @@
+                                              <select class="form_control" th:field="${account.subAccount.addressCountry}">
+                                                  <option th:value="FR">France</option>
+                                                  <option th:value="BE">Belgium</option>
+                                                  <option th:value="RO">Romania</option>
+                                              </select>
+
+											  
+											  
+											  
+											<select name="countryCode" id="country" class="form-control">
+												<option disabled="disabled" selected="selected" value=""> -- select an option -- </option>
+												<optgroup  label="_________">
+													<option th:value="AT"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='AT'}?@{'selected'}" >Austria</option>
+													<option th:value="BE"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='BE'}?@{'selected'}" >Belgium</option>
+													<option th:value="CA"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='CA'}?@{'selected'}" >Canada</option>
+													<option th:value="FR"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='FR'}?@{'selected'}" >France</option>
+													<option th:value="DE"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='DE'}?@{'selected'}" >Germany</option>
+													<option th:value="ES"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='ES'}?@{'selected'}" >Spain</option>
+													<option th:value="UK"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='UK'}?@{'selected'}" >United Kingdom</option>
+													<option th:value="US"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='US'}?@{'selected'}" >United States of America</option>
+												</optgroup>
+												<optgroup  label="_________">
+													<option th:value="AD"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='AD'}?@{'selected'}">Andorra</option>
+													<option th:value="BG"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='BG'}?@{'selected'}">Bulgaria</option>
+													<option th:value="HR"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='HR'}?@{'selected'}">Croatia</option>
+													<option th:value="CY"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='CY'}?@{'selected'}">Cyprus</option>
+													<option th:value="CZ"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='CZ'}?@{'selected'}">Czech Republic</option>
+													<option th:value="DK"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='DK'}?@{'selected'}">Denmark</option>
+													<option th:value="FI"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='FI'}?@{'selected'}">Finland</option>
+													<option th:value="HU"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='HU'}?@{'selected'}">Hungary</option>
+													<option th:value="IE"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='IE'}?@{'selected'}">Ireland</option>
+													<option th:value="IT"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='IT'}?@{'selected'}">Italy</option>
+													<option th:value="LV"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='LV'}?@{'selected'}">Latvia</option>
+													<option th:value="'LT'" th:attrappend="selected=${selectedCountry != null and selectedCountry=='LT'}?@{'selected'}">Lithuania</option>
+													<option th:value="LU"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='LU'}?@{'selected'}">Luxembourg</option>
+													<option th:value="MT"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='MT'}?@{'selected'}">Malta</option>
+													<option th:value="NL"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='NL'}?@{'selected'}">Netherlands</option>
+													<option th:value="PL"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='PL'}?@{'selected'}">Poland</option>
+													<option th:value="PT"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='PT'}?@{'selected'}">Portugal</option>
+													<option th:value="RO"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='RO'}?@{'selected'}">Romania</option>
+													<option th:value="SK"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='SK'}?@{'selected'}">Slovakia</option>
+													<option th:value="SI"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='SI'}?@{'selected'}">Slovenia</option>
+													<option th:value="SE"   th:attrappend="selected=${selectedCountry != null and selectedCountry=='SE'}?@{'selected'}">Sweden</option>
+												</optgroup>
+											</select>
+											  
